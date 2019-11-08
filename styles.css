@@ -1,3 +1,10 @@
+#main{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+
 #header-img {
   max-width: 300px;
 }
@@ -17,4 +24,18 @@
   text-decoration: none;
   color: black;
   font-size: 120%;
+}
+#submit {
+  padding: 5px;
+  width: 120px;
+  border-radius: 10px;
+  align-self: center;
+  background-color: green;
+  
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  width: 20%;
 }
